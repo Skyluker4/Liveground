@@ -1,3 +1,10 @@
+/*
+ *
+ * Getting the code behind the window based on code by Gerald Degeneve
+ * Displaying video to SDL window from FFMPEG based on code from Stephen Dranger
+ *
+ */
+
 #include "Video.h"
 #include <Windows.h>
 #include <timeapi.h>
