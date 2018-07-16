@@ -1,7 +1,6 @@
 #pragma once
 
-// TODO: Make logo
-// TODO: Make accessible
+/// TODO: Make logo
 
 namespace Liveground {
 	using namespace System;

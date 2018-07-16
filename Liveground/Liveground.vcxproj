@@ -81,15 +81,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\include;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\stdint;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x86\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\lib\x86;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x86\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2-2.0.8\include\;$(SolutionDir)ffmpeg\x86\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2-2.0.8\lib\x86\;$(SolutionDir)ffmpeg\x86\lib\;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\Intermediates\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\include;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\stdint;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\lib\x64;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2-2.0.8\include\;$(SolutionDir)ffmpeg\x64\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2-2.0.8\lib\x64\;$(SolutionDir)ffmpeg\x64\lib\;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\Intermediates\</IntDir>
   </PropertyGroup>
@@ -97,8 +97,8 @@
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
-    <IncludePath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\include;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x86\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\lib\x86;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x86\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2-2.0.8\include\;$(SolutionDir)ffmpeg\x86\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2-2.0.8\lib\x86\;$(SolutionDir)ffmpeg\x86\lib\;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\Intermediates\</IntDir>
   </PropertyGroup>
@@ -106,8 +106,8 @@
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
-    <IncludePath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\include;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\stdint;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\SDL2-2.0.8\lib\x64;C:\Users\Luke Simmons\OneDrive\Computerizing\Projects\Liveground\ffmpeg\x64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2-2.0.8\include\;$(SolutionDir)ffmpeg\x64\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2-2.0.8\lib\x64\;$(SolutionDir)ffmpeg\x64\lib\;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(ProjectName)\$(Configuration)\$(Platform)\Intermediates\</IntDir>
   </PropertyGroup>
