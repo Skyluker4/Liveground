@@ -1,6 +1,6 @@
 /*
  *
- * Getting the code behind the window based on code by Gerald Degeneve
+ * Getting the SDL Window behind the desktop icons based on code by Gerald Degeneve
  * Displaying video to SDL window from FFMPEG based on code from Stephen Dranger
  *
  */
